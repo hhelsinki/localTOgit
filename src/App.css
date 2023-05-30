@@ -1,0 +1,62 @@
+img {width:100%}
+
+#scrollDemo {
+  height: 300px;
+  width: 90vw;
+  overflow: auto;
+  background-color: #f0db4f;
+  margin: 0 auto;
+}
+
+/*#scrollDemo p {
+   show the scrollbar 
+  height: 300px;
+  width: 300px;
+}*/
+
+.container {
+  width: 50000px;
+  white-space: nowrap;
+  overflow: hidden;
+  background: #ddd;
+}
+
+.box {
+  width: 20vw;
+  height: 30vw;
+  position: relative;
+  border: 1px solid #000;
+  display: inline-block;
+  margin: 10px 10px;
+} 
+
+.img {width:100%; height:auto; position: absolute}
+
+.movies{background: #cc7a00} 
+.shows{background: #009933} 
+.action{background: #805500;} 
+.romance{background: #ff6666} 
+.crime{background: #660000} 
+.comedy{background:#ffb31a} 
+.thriller{background:#666666} 
+.fantacy{background:#007acc} 
+.lgbtq{background:#a64dff} 
+.more{background:#999966}
+
+.box-img {width:20vw; position:absolute; left:0; top:0}
+.box-txt {font-size:.8rem; white-space: pre-line; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color:#fff}
+.overlay {width:20vw; height:30vw; position:absolute; top:0; left:0; z-index:1; background:#1a1a1a; opacity:0; transition: .3s ease}
+.box:hover .overlay {
+  opacity: .8
+}
+
+.char {
+color: #272729;
+background-color: #f6f5fa;
+box-shadow: 0 2px 0 #e4e2f5;
+border: none;
+font-size: 20px;
+border-radius: 8px;
+}
+
+

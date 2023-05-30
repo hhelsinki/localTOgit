@@ -1,0 +1,12 @@
+.container-related {height:30vh; border:1px solid #000}
+.container-scroll {width:auto; white-space: nowrap; overflow: hidden; background:grey;}
+.scrollable {
+    height: 18vw;
+    width: 95vw;
+    overflow: auto;
+    background-color: #f0db4f;
+    margin: 0 auto;
+}
+.ep-wrap { position:relative; width: 300vw; white-space: nowrap; overflow: hidden; background: bisque; }
+.rel {position:relative}
+.box {width:200px; height:100px; display:inline-block; border:1px solid #000}
